@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".medicaments.broncalene">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="8dp"
+        android:layout_marginBottom="15dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_arrow_back_ios_24"
+            android:layout_marginTop="8dp"
+            android:paddingLeft="15dp"
+            android:id="@+id/bronc_back"/>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/broncalene2"
+        android:id="@+id/broncalene"
+        android:layout_marginTop="38dp"
+        android:padding="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/dm_bold"
+        android:text="Description"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/broncalene"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/broncalene"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="@font/dm_medium"
+        android:textSize="18sp"
+        android:id="@+id/text1"
+        android:text="Ce médicament est préconisé pour calmer les toux sèches et les toux d'irritation, en particulier à prédominance nocturne de l'adulte. Vous devez vous adresser à votre médecin si vous ne ressentez aucune amélioration ou si vous vous sentez moins bien après la durée du traitement prescrit.
+"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text1"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="En savoir  plus"
+        android:textSize="18sp"
+        android:fontFamily="@font/dm_bold"
+        android:textColor="@color/blue_cyan"
+        android:id="@+id/more4"/>
+
+</RelativeLayout>

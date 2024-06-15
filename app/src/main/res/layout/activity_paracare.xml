@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".medicaments.paracare">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="8dp"
+        android:layout_marginBottom="15dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_arrow_back_ios_24"
+            android:layout_marginTop="8dp"
+            android:paddingLeft="15dp"
+            android:id="@+id/ppara_back"/>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/ppara"
+        android:id="@+id/ppara"
+        android:layout_marginTop="38dp"
+        android:padding="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/dm_bold"
+        android:text="Description"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/ppara"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ppara"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="18sp"
+        android:id="@+id/text1"
+        android:text="Paracetamol ParaCare est utilisé pour soulager les douleurs et/ou la fièvre d'intensité légère à modérée, c'est-à-dire la fièvre accompagnant le rhume, les maux de tête, les maux de dents, les douleurs liées aux règles, les douleurs musculaires et articulaires.
+"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text1"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="En savoir  plus"
+        android:textSize="18sp"
+        android:fontFamily="@font/dm_bold"
+        android:textColor="@color/blue_cyan"
+        android:id="@+id/more"/>
+</RelativeLayout>

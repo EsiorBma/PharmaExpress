@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "574317593714",
+    "project_id": "login-register-pharmaexpress",
+    "storage_bucket": "login-register-pharmaexpress.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:574317593714:android:b0be407589cb1cdde72eeb",
+        "android_client_info": {
+          "package_name": "com.example.pharmaexpress"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwiCw3wdnm7AGeJBW6Xj0DaiqEErxAmPQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

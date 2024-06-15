@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/iconpharmacy"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PharmaExpress"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".Registration"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".ui.login.LoginActivity"
+            android:exported="false"
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="true"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".medicaments.paracare"
+            android:exported="false" />
+        <activity
+            android:name=".medicaments.iprafeine"
+            android:exported="false" />
+        <activity
+            android:name=".medicaments.broncalene"
+            android:exported="false" />
+        <activity
+            android:name=".medicaments.fever"
+            android:exported="false" />
+        <activity
+            android:name=".medicaments.advacare"
+            android:exported="false" />
+        <activity
+            android:name=".medicaments.para_sandol"
+            android:exported="false" />
+        <activity
+            android:name=".ui.home.account.account_command"
+            android:exported="false" />
+        <activity
+            android:name=".ui.home.account.account_info"
+            android:exported="false" />
+        <activity
+            android:name=".ui.home.account.account_address"
+            android:exported="false" />
+        <activity
+            android:name=".ui.home.account.account_cards"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBa3PyUEpFwKazi5AtvBjqtCXkXf2kSMUU" />
+    </application>
+
+</manifest>
